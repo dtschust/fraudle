@@ -1,0 +1,165 @@
+#root {
+	text-align: center;
+	color: var(--color-tone-1);
+}
+
+.grid, .share {
+	margin: 20px;
+}
+
+.grid-tip {
+	font-style: italic;
+}
+.row {
+	padding: 0;
+}
+
+.square {
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	padding: 0;
+}
+
+.square.correct {
+	background-color: var(--color-correct);
+}
+
+.square.absent {
+	background-color: var(--color-absent);
+}
+
+.square.present {
+	background-color: var(--color-present);
+}
+
+.square.unknown {
+	background-color: var(--color-background);
+	border: 2px solid var(--color-tone-4);
+}
+button.square[disabled] {
+	cursor: default;
+}
+
+.control-panel {
+	margin: 20px auto 0;
+	display: inline-block;
+	padding: 10px;
+	border: 2px solid var(--color-tone-4);
+	line-height: 1em;
+}
+.control-panel-number {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.control-panel-number span {
+	display: block;
+}
+.control-panel-label {
+	justify-self: flex-start;
+	text-align: left;
+	display: inline-block;
+	width: 150px;
+}
+.control-panel-item {
+	margin: 10px auto;
+	text-align: right;
+}
+
+.hint button ,
+.control-panel-item button {
+	display: inline-block;
+	margin: 0 10px;
+	border: none;
+	background-color: var(--key-bg-correct);
+    color: var(--key-evaluated-text-color);
+	padding: 5px 10px;
+	text-align: center;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.control-panel-item button[disabled] {
+	background-color: var(--color-absent);
+}
+
+.control-panel-number-label {
+	width: 30px;
+	text-align: center;
+}
+
+.hint {
+	border: none;
+	margin: 0 auto;
+	display: inline-block;
+	padding: 10px;
+	line-height: 1em;
+}
+
+.hint div {
+	margin: 10px;
+	text-align: left;
+}
+
+.share {
+	display: block;
+}
+
+.share textarea {
+	display:block;
+	margin: 10px auto;
+	padding: 10px;
+	text-align: left;
+	font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+	line-height: 1em;
+	border: none;
+	resize: none;
+	color: var(--color-tone-1);
+	background-color: var(--color-background);
+	border: 2px solid var(--color-tone-4);
+}
+
+.share-button {
+	border: none;
+	background-color: var(--key-bg-correct);
+    color: var(--key-evaluated-text-color);
+	padding: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 4px;
+	height: 52px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	-webkit-tap-highlight-color: rgba(0,0,0,0.3);
+	width: 50%;
+	max-width: 200px;
+	font-size: 20px;
+	height: 52px;
+	margin: 20px auto;
+}
+
+.share-button svg {
+	width: 24px;
+    height: 24px;
+    padding-left: 8px;
+}
+
+.about {
+  margin: 20px 0;
+}
+
+.about a {
+  text-decoration: none;
+  color: var(--color-correct);
+  font-weight: bold;
+}
