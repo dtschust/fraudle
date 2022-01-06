@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://fraudle.biz/static/css/main.fc37712a.css",
+    "main.js": "https://fraudle.biz/static/js/main.982212c7.js",
+    "static/js/787.107a8165.chunk.js": "https://fraudle.biz/static/js/787.107a8165.chunk.js",
+    "index.html": "https://fraudle.biz/index.html",
+    "main.fc37712a.css.map": "https://fraudle.biz/static/css/main.fc37712a.css.map",
+    "main.982212c7.js.map": "https://fraudle.biz/static/js/main.982212c7.js.map",
+    "787.107a8165.chunk.js.map": "https://fraudle.biz/static/js/787.107a8165.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc37712a.css",
+    "static/js/main.982212c7.js"
+  ]
+}
