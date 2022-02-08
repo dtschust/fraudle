@@ -34,7 +34,7 @@ function Hint(props: HintProps) {
 	if (numHints >= 3) {
 		hints.push(
 			<div>
-				Hint #3: Jesus Christ, the answer is{' '}
+				Hint #3: The answer is{' '}
 				<span style={{ fontWeight: 'bold' }}>{answers[gameNumber]}</span>.
 			</div>
 		);
