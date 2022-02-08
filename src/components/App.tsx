@@ -23,8 +23,6 @@ function App() {
 	const numRowsToSolve = determineNumRowsToSolve(grid);
 
 	function changeSquare(rowIndex: number, colIndex: number, value: SquareValue) {
-		// TODO: Meta unfurls
-		// TODO: FavIcon and title
 		const newGrid = grid.map((row: RowType): RowType => [...row]) as GridType;
 		newGrid[rowIndex][colIndex] = value;
 
