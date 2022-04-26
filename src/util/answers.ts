@@ -283,7 +283,6 @@ const answers = [
 	'nymph',
 	'found',
 	'shall',
-	'harry',
 	'stove',
 	'lowly',
 	'snout',

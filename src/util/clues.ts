@@ -283,7 +283,6 @@ const clues = [
 	'Pretty maiden of Greek myth',
 	'*With 44-Down, not turning up as expected in a search',
 	'Strong will?',
-	'He followed Franklin',
 	'Potbelly, e.g.',
 	'Humble',
 	'Quite a nose',
