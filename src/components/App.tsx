@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import ControlPanel from './Control-Panel';
-import Hint from './Hint';
 import Grid from './Grid';
 import Share from './Share';
 import { SquareValue, RowType, GridType } from '../types';
@@ -53,7 +52,6 @@ function App() {
 				setGrid={setGrid}
 			/>
 			<Grid grid={grid} changeSquare={changeSquare} numRowsToSolve={numRowsToSolve} />
-			<Hint key={gameNumber} gameNumber={gameNumber} />
 			<Share
 				darkMode={darkMode}
 				gameNumber={gameNumber}
@@ -61,36 +59,19 @@ function App() {
 				grid={grid}
 			/>
 			<div className="about">
-				<div>
-					Made by{' '}
-					<a
-						rel="noopener noreferrer"
-						target="_blank"
-						href="https://twitter.com/nuncamind"
-					>
-						@nuncamind
-					</a>{' '}
-					and inspired by{' '}
-					<a
-						rel="noopener noreferrer"
-						target="_blank"
-						href="https://www.powerlanguage.co.uk/wordle/"
-					>
-						Wordle
-					</a>
-					.
-				</div>
-				<div>
-					Hints lovingly scraped from{' '}
-					<a
-						rel="noopener noreferrer"
-						target="_blank"
-						href="https://crosswordheaven.com/"
-					>
-						crosswordheaven
-					</a>
-					.
-				</div>
+				Made by{' '}
+				<a rel="noopener noreferrer" target="_blank" href="https://twitter.com/nuncamind">
+					@nuncamind
+				</a>{' '}
+				and inspired by{' '}
+				<a
+					rel="noopener noreferrer"
+					target="_blank"
+					href="https://www.powerlanguage.co.uk/wordle/"
+				>
+					Wordle
+				</a>
+				.
 			</div>
 		</div>
 	);
