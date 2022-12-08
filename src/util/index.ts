@@ -75,13 +75,13 @@ export function gridToEmoji(grid: GridType, darkMode: boolean) {
 				.map((value) => {
 					switch (value) {
 						case SquareValue.YES:
-							return '🟩';
+							return '❎';
 						case SquareValue.UNKNOWN:
 							return '';
 						case SquareValue.NO:
-							return darkMode ? '⬛️' : '⬜️';
+							return darkMode ? '🙅' : '🙅';
 						case SquareValue.ALMOST:
-							return '🟨';
+							return '😵';
 						default:
 							return '';
 					}

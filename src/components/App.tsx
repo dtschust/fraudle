@@ -71,7 +71,14 @@ function App() {
 				>
 					Wordle
 				</a>
-				.
+				.<br />
+				<a
+					rel="noopener noreferrer"
+					target="_blank"
+					href="https://actionnetwork.org/letters/tell-the-new-york-times-give-your-employees-the-contract-they-deserve"
+				>
+					Learn more about the NYT Workers Strike
+				</a>
 			</div>
 		</div>
 	);
