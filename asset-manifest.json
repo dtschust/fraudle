@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://fraudle.biz/static/css/main.fc37712a.css",
-    "main.js": "https://fraudle.biz/static/js/main.5e6fd1c0.js",
-    "static/js/787.c5724add.chunk.js": "https://fraudle.biz/static/js/787.c5724add.chunk.js",
+    "main.js": "https://fraudle.biz/static/js/main.79e0522d.js",
+    "static/js/787.107a8165.chunk.js": "https://fraudle.biz/static/js/787.107a8165.chunk.js",
     "index.html": "https://fraudle.biz/index.html",
     "main.fc37712a.css.map": "https://fraudle.biz/static/css/main.fc37712a.css.map",
-    "main.5e6fd1c0.js.map": "https://fraudle.biz/static/js/main.5e6fd1c0.js.map",
-    "787.c5724add.chunk.js.map": "https://fraudle.biz/static/js/787.c5724add.chunk.js.map"
+    "main.79e0522d.js.map": "https://fraudle.biz/static/js/main.79e0522d.js.map",
+    "787.107a8165.chunk.js.map": "https://fraudle.biz/static/js/787.107a8165.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc37712a.css",
-    "static/js/main.5e6fd1c0.js"
+    "static/js/main.79e0522d.js"
   ]
 }
