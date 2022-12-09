@@ -18,14 +18,11 @@ function Share(props: ShareProps) {
 				spellCheck={false}
 				readOnly
 				id="share-text"
-				rows={20}
+				rows={8}
 				cols={16}
 				value={`Wordle ${gameNumber} ${numRowsToSolve > 6 ? 'X' : numRowsToSolve}/6
 
-${gridToEmoji(grid, darkMode)}
-
-fraudle.biz supports the NYT workers strike.
-Find out more at https://actionnetwork.org/letters/tell-the-new-york-times-give-your-employees-the-contract-they-deserve`}
+${gridToEmoji(grid, darkMode)}`}
 			/>
 			<button
 				className="share-button"
